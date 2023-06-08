@@ -100,7 +100,7 @@ builder.Services.AddHealthChecks();
 //    .AddPrivateMemoryHealthCheck(8000)
 //    .AddProcessAllocatedMemoryHealthCheck(2_000)
 //    .AddVirtualMemorySizeHealthCheck(8_000)
-//    .AddDnsResolveHealthCheck(setup => setup.ResolveHost("stg1.gafi.gov.eg"))
+//    .AddDnsResolveHealthCheck(setup => setup.ResolveHost("google.com"))
 //    .AddPingHealthCheck(setup => setup.AddHost("8.8.8.88", 100))
 //    .AddWindowsServiceHealthCheck("redis", controller => controller.Status == ServiceControllerStatus.Running)
 //    .AddWorkingSetHealthCheck(20_000)
